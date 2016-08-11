@@ -65,7 +65,7 @@ public class TestDevelopingAty extends AppCompatActivity implements SurfaceHolde
 		//		mMediaPlayer.getMediaList().add(new Media(mMediaPlayer, "http://live.3gv.ifeng.com/zixun.m3u8"), false);
 		//		mMediaPlayer.playIndex(0);
 //		mMediaPlayer.playMRL("http://live.3gv.ifeng.com/zixun.m3u8");
-		mMediaPlayer.playMRL("rtsp://admin:admin@192.168.0.222:554/cam/realmonitor?channel=1&subtype=0");
+		mMediaPlayer.playMRL("rtsp://admin:admin@192.168.1.222:554/cam/realmonitor?channel=1&subtype=0");
 	}
 
 	@Override
